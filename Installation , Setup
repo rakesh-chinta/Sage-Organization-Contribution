@@ -1,0 +1,39 @@
+python-graph
+A library for working with graphs in Python
+--------------------------------------------------------------------------------
+
+
+SUMMARY
+
+python-graph is a library for working with graphs in Python.
+
+This software provides ﻿a suitable data structure for representing graphs and a
+whole set of important algorithms.
+
+
+INSTALLING
+
+To install the core module, run:
+
+	make install-core
+
+To install the dot language support, run:
+
+	make install-dot
+
+Alternatively, if you don't have make, you can install the modules by running:
+
+	./setup.py install
+
+inside the module directory.
+
+
+DOCUMENTATION
+
+To generate the API documentation for this package, run:
+
+	make docs
+
+You'll need epydoc installed in your system.
+
+
